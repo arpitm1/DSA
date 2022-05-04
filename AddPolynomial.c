@@ -1,26 +1,5 @@
 #include<stdio.h>
 #include<conio.h>
-/*void readPolynomial(node **);
-void addPolynomial(node *,node *,node **);
-typedef struct ColumnNodetype
-{
-	int col;
-	float element;
-	struct Columntype *link;
-}columnNode;
-typedef struct rowNodeType
-{
-	int row;
-	struct rowNodeType *next;
-	columnNode *first;
-}rowNode;
-typedef struct headerNodeType
-{
-	int nrow;
-	int ncolumn;
-	int num;
-	rowNode *head;
-}headerNode;*/
 typedef struct nodetype
 {
 	int coeff;
