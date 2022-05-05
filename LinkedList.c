@@ -76,11 +76,11 @@ void main()
 				   break;
 			case 8:
 				   deleteFromBeginning(&head);
-				   printf("\STARTING ELEMENT DELETED\n");
+				   printf("\nSTARTING ELEMENT DELETED\n");
 				   break;
 			case 9:
 				   deleteFromEnd(&head);
-				   printf("\LAST ELEMENT DELETED\n");
+				   printf("\nLAST ELEMENT DELETED\n");
 				   break;
 			case 10:
 				   printf("\nEnter before element to delete:");
