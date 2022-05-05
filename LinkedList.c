@@ -38,7 +38,7 @@ void main()
 				break;
 			case 2:
 				   if(head==NULL)
-					 printf("\mThe list is empty\n");
+					 printf("\nThe list is empty\n");
 				   else
 					 traverseInOrder(head);
 					 printf("\nPress any key to continue\n");
@@ -46,7 +46,7 @@ void main()
 					 break;
 			case 3:
 				   if(head==NULL)
-					 printf("\mThe list is empty\n");
+					 printf("\nThe list is empty\n");
 				   else
 					 traverseInReverseOrder(head);
 					 printf("\nPress any key to continue\n");
